@@ -1,11 +1,13 @@
+import java.util.Locale;
+
 public class LearnStrings {
     public static void main(String[] args) {
-        String fruit = "apple";
-        String anotherFruit = "apple";
-        String vegetable = new String("broccoli");
-        String anotherVegetable = new String("®broccoli");
+        String myText = "abcdefg";
+        System.out.println(myText.toUpperCase());
 
-        System.out.println(fruit == anotherFruit); // both on the same memory
-        System.out.println(vegetable == anotherVegetable);
+        String myText2 = "ABCDEFG";
+        System.out.println(myText2.toLowerCase());
+
+
     }
 }
